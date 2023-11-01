@@ -5,7 +5,9 @@
   (paper "A4")
 
   (title_block
+    (title "Arduino Uno R4 CAN Shield")
     (date "2023-10-29")
+    (rev "0.1")
   )
 
   (lib_symbols

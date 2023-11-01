@@ -1171,7 +1171,12 @@
       (net 23 "/CAN_H") (pinfunction "CANH") (pintype "bidirectional") (tstamp 819c9b71-3dd3-4287-b505-a718e449b682))
     (pad "8" smd roundrect (at 4.525 -3.81 180) (size 2.35 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 37 "VCAN") (pinfunction "VCC2") (pintype "power_in") (tstamp f33f6932-72df-428b-a76e-6db44d5f7037))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOP-8_6.62x9.15mm_P2.54mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOP-8_6.62x9.15mm_P2.54mm.wrl" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "/Users/jeremy/Documents/kicad/7.0/3rdparty/DUB0008A.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
